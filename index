@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Virtual Investa</title>
+  <link rel="stylesheet" type="text/css" href="C:\Users\rohit\Downloads\virtual investa\styles.css .txt">
+</head>
+<body>
+  <header>
+    <h1>Virtual Investa</h1>
+  </header>
+  <main>
+    <section id="stock-list">
+      <h2>Stock List</h2>
+      <ul>
+        <li>Stock 1 (Symbol)</li>
+        <li>Stock 2 (Symbol)</li>
+        <li>Stock 3 (Symbol)</li>
+        <!-- Add more stocks here -->
+      </ul>
+    </section>
+    <section id="buy-sell-form">
+      <h2>Buy/Sell</h2>
+      <form>
+        <label for="stock-select">Select Stock:</label>
+        <select id="stock-select">
+          <option value="">-- Select Stock --</option>
+          <!-- Add options dynamically using JavaScript -->
+        </select>
+        <label for="quantity-input">Quantity:</label>
+        <input type="number" id="quantity-input" min="1">
+        <label for="action-select">Action:</label>
+        <select id="action-select">
+          <option value="buy">Buy</option>
+          <option value="sell">Sell</option>
+        </select>
+        <button type="submit">Trade</button>
+      </form>
+    </section>
+    <section id="virtual-funds">
+      <h2>Virtual Funds</h2>
+      <p>Remaining Virtual Funds: Rs. <span id="remaining-funds">100,000</span></p>
+    </section>
+    <section id="portfolio">
+      <h2>Portfolio Overview</h2>
+      <table id="portfolio-table">
+        <tr>
+          <th>Stock</th>
+          <th>Quantity</th>
+          <th>Market Value</th>
+        </tr>
+        <!-- Add portfolio data dynamically using JavaScript -->
+      </table>
+      <p>Overall Profit/Loss: Rs. <span id="profit-loss">0</span></p>
+    </section>
+  </main>
+  <script src="C:\Users\rohit\Downloads\virtual investa\script.js.txt"></script>
+</body>
+</html>
